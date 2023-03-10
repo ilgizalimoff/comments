@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Блок с комментариями</title>
+</head>
+
+<body onload='getNowDate()'>
+    <div class="container">
+        <div class='comments'>
+
+        </div>
+        <div class="blok-center">
+            <form id="form">
+                <h3>Ваше имя</h3>
+                <input class="name" placeholder="Введите имя" required />
+
+                <h3>Ваш email</h3>
+                <input class="email" placeholder="Введите email" required />
+
+                <h3>Дата</h3>
+                <input type="date" id="date" name="date" />
+
+                <h3>Текст сообщения: </h3>
+                <textarea id="comment__value" required></textarea>
+                <button id="submit" type="submit">Отправить</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
